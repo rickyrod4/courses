@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove</title>
+</head>
+<body>
+    <h3>Are you sure you want to delete the following course?</h3>
+    <p><h4>{{ course.courseName }}</h4></p>
+    <p><h4>{{ course.description }}</h4></p>
+    <p><a href="/no">No</a> | <a href="/delete/{{ course.id }}">Yes! I want to delete this</a></p>
+</body>
+</html>
